@@ -29,6 +29,7 @@ void loop() {
  changeLights();
  }
 }
+
 void changeLights() {
  digitalWrite(carGreen, LOW); // green off
  digitalWrite(carYellow, HIGH); // yellow on
